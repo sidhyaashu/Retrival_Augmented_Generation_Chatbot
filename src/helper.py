@@ -21,8 +21,6 @@ def pdf_loader(data):
         return None
     
 
-extracted_data = pdf_loader("../data")
-
 
 #To create chunks of each tex
 def text_split(data):
